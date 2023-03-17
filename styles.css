@@ -2,5 +2,74 @@ body {
     background-color: #282d39;
     color: #ea9f6a;
     text-align: center;
+}
+
+h1 {
+    font-size: 4em;
     font-family: 'Brush Script MT', cursive;
+}
+
+.intro {
+    padding-top: 40px;
+    color: #cce0e0;
+    text-transform: uppercase;
+}
+
+.detail {
+    text-transform: uppercase;
+}
+
+hr {
+    border: 1px solid #ea9f6a;
+}
+
+.linebreak {
+    padding: 20px 0;
+    margin: 0 auto; 
+    width: 50%
+}
+
+.rsvp {
+    color:  #cce0e0;
+    font-size: 1.5em;
+}
+
+.payment {
+    color:  #cce0e0;  
+}
+
+a {
+    color: #ea9f6a;
+}
+
+.paymentoption {
+    color:  #ea9f6a;
+}
+
+.price {
+    padding: 10px 0 30px 0;
+}
+
+.payment > .title {
+    color:  #ea9f6a;
+}
+
+.price > .title {
+    color: #cce0e0;
+}
+
+span.pricevalue {
+    padding: 0 5px;
+}
+
+div.pricevalue, span.pricevalue {
+    color: #cce0e0;
+}
+
+div.paymentoption, div.pricevalue, span.paymentoption, span.pricevalue {
+    font-size: 1.5em;
+}
+
+.title {
+    font-size: 1.5em;
 }
